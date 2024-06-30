@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.headnav {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0px;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 500px;
+  padding: 30px;
+}
+.form h3 {
+  margin: 15px 0px 0px 0px;
+}
+input {
+  padding: 10px 2px;
+  width: 350px;
+  border-radius: 5px;
+  border: 2px solid #ececec;
+}
+input::placeholder {
+  padding-left: 10px;
+}
+
+input[type="date"]::placeholder {
+  padding-left: 10px;
+}
+.addbtn {
+  background-color: #333333;
+  color: white;
+  padding: 10px 2px;
+  width: 350px;
+  border-radius: 5px;
+  margin: 25px 0px;
+}
+.expenseListContainer {
+  background-color: #f9f9f9;
+  width: 400px;
+  padding-right: 15px;
+}
+.listExpense {
+  list-style: none;
+}
+.listExpense li {
+  background-color: rgb(181, 193, 142, 0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.listExpense li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.del {
+  border: none;
+  background-color: #942f2f;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 15px;
+}
+.footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+.expenseTitle {
+  margin: 7px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.ExpenseSummary {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 2px;
+  font-size: 15px;
+  text-transform: capitalize;
+  gap: 50px;
+}
+.orderandCLear {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 2px;
+  font-size: 15px;
+  text-transform: capitalize;
+  gap: 50px;
+}
+
+#filterexpense {
+  width: 70px;
+}
+#filterexpense::placeholder {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+}
+
+#sortEl,
+#wipeLocalrage {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+#wipeLocalrage {
+  border: none;
+  background-color: #972f2f;
+  color: white;
+}
+#itemCount,
+#totalExpense {
+  font-weight: 1000px;
+  color: #942f2f;
+}
